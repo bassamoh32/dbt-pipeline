@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.env
+*.pyc
+dbt_packages/
+target/
+postgres/data/
