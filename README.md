@@ -70,3 +70,12 @@ api_key= "your_weatherstack_api_key"
 ```bash
 docker-compose up --build
 ```
+This will:
+
+* Launch PostgreSQL
+
+* Start Apache Airflow with DAGs
+
+* Build the Python environment
+
+* Initialize DBT
