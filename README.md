@@ -79,3 +79,23 @@ This will:
 * Build the Python environment
 
 * Initialize DBT
+
+##  Python Environment Setup
+Before installing dependencies, it's recommended to use a virtual environment.
+### Create and Activate Virtual Environment
+* On Linux/macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+* On Windows:
+```bash
+python -m venv venv
+venv\\Scripts\\activate
+```
+Once activated, your terminal will show (venv) at the beginning of the line.
+## Dependencies
+Install Python dependencies manually (if not using Docker):
+```bash
+pip install -r requirements.txt
+```
