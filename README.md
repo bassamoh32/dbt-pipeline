@@ -52,7 +52,7 @@ weather-data-project/
 ├── postgres/                 # PostgreSQL setup (init SQL, volumes)
 ├── docker-compose.yml        # Docker Compose orchestration
 └── requirements.txt          # Python dependencies
-
+```
 ##  Clone the Repository
 
 ```bash
