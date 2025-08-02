@@ -60,7 +60,7 @@ git clone https://github.com/bassamoh32/dbt-pipeline.git
 cd dbt-pipeline
 ```
 ## Configure Environment Variables
-Create a .env file in the root directory 
+Create a **.env** file in the root directory 
 
 ```env
 # .env
@@ -93,9 +93,26 @@ source venv/bin/activate
 python -m venv venv
 venv\\Scripts\\activate
 ```
-Once activated, your terminal will show (venv) at the beginning of the line.
+Once activated, your terminal will show **venv** at the beginning of the line.
 ## Dependencies
 Install Python dependencies manually (if not using Docker):
 ```bash
 pip install -r requirements.txt
 ```
+
+### Troubleshooting
+## Permission Denied Errors
+During execution (especially on Linux/macOS), you may encounter permission-related issues — for example:
+
+```bash
+Permission denied: './scripts/entrypoint.sh'
+```
+This usually means the script or file doesn’t have execute permissions.
+
+## Solution:
+Give execute permission to the file:
+
+```bash
+chmod +x ./scripts/entrypoint.sh
+```
+Replace the path with the actual file that triggered the error.
