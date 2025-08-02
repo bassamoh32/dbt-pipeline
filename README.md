@@ -66,3 +66,7 @@ Create a .env file in the root directory
 # .env
 api_key= "your_weatherstack_api_key"
 ```
+##  Build and Run with Docker
+```bash
+docker-compose up --build
+```
