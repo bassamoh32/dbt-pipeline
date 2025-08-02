@@ -58,10 +58,11 @@ weather-data-project/
 ```bash
 git clone https://github.com/bassamoh32/dbt-pipeline.git
 cd dbt-pipeline
-
+```
 ## Configure Environment Variables
 Create a .env file in the root directory 
 
 ```env
 # .env
 api_key= "your_weatherstack_api_key"
+```
